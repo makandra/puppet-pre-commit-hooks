@@ -1,5 +1,5 @@
 - id: bolt-validate
-  additional_dependencies: ['puppet']
+  additional_dependencies: ['openvox']
   description: Validate syntax of Bolt plans
   entry: bolt-validate
   files: plans/\w+\.pp$
@@ -7,7 +7,7 @@
   name: Validate Bolt plans
 
 - id: epp-validate
-  additional_dependencies: ['puppet']
+  additional_dependencies: ['openvox']
   description: Validate syntax of Puppet EPP templates
   entry: epp-validate
   files: \.epp$
@@ -37,7 +37,7 @@
   name: puppet-lint
 
 - id: puppet-validate
-  additional_dependencies: ['puppet']
+  additional_dependencies: ['openvox']
   description: Validate syntax of Puppet manifests
   entry: puppet-validate
   files: \.pp$
